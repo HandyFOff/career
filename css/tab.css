@@ -1,0 +1,66 @@
+.vacancy__tabs {
+    padding: 80px 0;
+}
+
+.tab {
+    overflow: hidden;
+    display: flex;
+    gap: 40px;
+    margin: 40px 0 30px 0;
+  }
+  
+  .tab button {
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    padding: 20px 25px;
+
+	font-family: "OpenSans", sans-serif;
+    font-style: normal;
+    font-weight: medium;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+
+    color: #686868;
+
+  }
+  .tab > button:hover {
+    border: 1px solid #59C3AC;
+  }
+  
+  .tab button.active {
+    background-color: #f7f7f7;
+    border: 1px solid #59C3AC;
+  }
+  
+  .tabcontent {
+    display: none;
+    border-top: none;
+
+	font-family: "OpenSans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+
+    color: #686868;
+
+  }
+
+  .tab__title {
+	font-family: "OpenSans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.54px;
+    color: #59C3AC;
+  }
+
+@media (max-width: 824px) {
+    .tab {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
